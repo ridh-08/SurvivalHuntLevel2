@@ -90,7 +90,7 @@ function draw() {
     // Format seconds with leading zero if needed
     seconds = seconds < 10 ? "0" + seconds : seconds;
 
-    text('Time: ' + minutes + ':' + seconds, width - 100, 30); // Display timer at top right
+    text('Time: ' + minutes + ':' + seconds, width - 150, 30); // Display timer at top right
 }
 
 function increaseSpeed() {
